@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+	<key>BBLMLanguageCode</key>
+	<string>Trtl</string>
+	<key>BBLMLanguageDisplayName</key>
+	<string>Turtle</string>
+	<key>BBLMCanSpellCheckCodeRuns</key>
+	<true/>
+	<key>BBLMColorsSyntax</key>
+	<true/>
+	<key>BBLMIsCaseSensitive</key>
+	<true/>
+	<key>BBLMPreferredFilenameExtension</key>
+	<string>ttl</string>
+	<key>BBLMSuffixMap</key>
+	<array>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.ttl</string>
+		</dict>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.turtle</string>
+		</dict>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.nt</string>
+		</dict>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.ntriples</string>
+		</dict>
+	</array>
+	<key>BBLMKeywordList</key>
+	<array>
+		<string>@prefix</string>
+		<string>@base</string>
+		<string>a</string>
+		<string>true</string>
+		<string>false</string>
+	</array>
+  <key>BBLMCommentLineDefault</key>
+  <string>#</string>
+  <key>Language Features</key>
+	<dict>
+		<key>Open Strings 1</key>
+		<string>&quot;</string>
+		<key>Close Strings 1</key>
+		<string>&quot;</string>
+		<key>Escape Char in Strings 1</key>
+		<string>\</string>
+		<key>End-of-line Ends Strings 1</key>
+		<false/>
+		<key>Open Strings 2</key>
+		<string>&quot;&quot;&quot;</string>
+		<key>Close Strings 2</key>
+		<string>&quot;&quot;&quot;</string>
+		<key>End-of-line Ends Strings 2</key>
+		<false/>
+		<key>Escape Char in Strings 2</key>
+		<string></string>
+		<key>Identifier and Keyword Characters</key>
+		<string>@abcdefghijklmnopqrstuvwxyz</string>
+		<key>Open Line Comments</key>
+		<string>#</string>
+	</dict>
+</dict>
+</plist>
